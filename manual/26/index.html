@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cont
+        let mul
+        let par
+        let impar
+        let resultado
+
+        cont = 0
+        mul = 0
+        par = 0
+        impar = 0
+        resultado = 0
+
+        while (cont < 5){
+            cont = cont + 1
+            mul = 0
+             while (mul < 5) {
+                mul = mul + 1
+                resultado = cont * mul
+                if(resultado % 2 == 0){
+                    console.log(cont + " x " + mul + " = " + resultado + " BUZZ ")
+                    par = par + 1
+                }
+                else{
+                    console.log(cont + " x " + mul + " = " + resultado + " BASS ")
+                    impar = impar + 1
+                }
+            }
+
+
+        }
+        console.log(" cantidad de pares " + par)
+        console.log(" cantidad de impares " + impar)
+
+    </script>
+</body>
+</html>

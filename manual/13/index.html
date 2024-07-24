@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cuad1
+        let cuad2
+        let cuad3
+        let lado1
+        let lado2
+        let lado3
+
+        lado1 = 4
+        lado2 = 8
+        lado3 = 9
+        cuad1 =  lado1 * lado1  
+        cuad2 =  lado2 * lado2
+        cuad3 =  lado3 * lado3
+
+        if (cuad1 == cuad2 && cuad1 == cuad3 && cuad3 == cuad2){
+            console.log("las areas de todos los cuadrados son iguales")
+
+        }
+        else{
+            if(cuad1 > cuad2 && cuad1 > cuad3){
+               console.log("el area mayor de los tras cuandrado fue el 1 su numero es:  "+ "\n" + cuad1)
+            }
+            else{
+                if(cuad2 > cuad1 && cuad2 > cuad3){
+                    console.log("el area mayor de los tras cuandrado fue el 2 su numero es: "+ "\n" + cuad2)
+                }
+                else{
+                    console.log("el area mayor de los tras cuandrado fue el 3 su numero es: "+ "\n" + cuad3)
+                }
+            }
+        }
+    </script>
+</body>
+</html>

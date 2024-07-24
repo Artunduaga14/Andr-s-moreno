@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numUno
+        let numDos
+        let numTres
+
+        numUno = 5
+        numDos = 8
+        numTres = 100
+
+        if(numUno == numDos && numUno == numTres && numTres == numDos){
+            console.log("los 3 numeros son iguales")
+        }
+        else{
+            if (numUno > numDos && numUno > numTres){
+                console.log("el numero mayor es el " + "\n" + numUno)
+
+            }
+            else {
+                if(numDos > numUno && numDos > numTres){
+                  console.log("el numero mayor es el " + "\n" + numDos)
+                }
+                else{
+                    console.log("el numero mayor es el " + "\n" + numTres)
+                }
+            }
+        }   
+    </script>
+</body>
+</html>

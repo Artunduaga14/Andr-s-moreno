@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let contador
+        let multi 
+        let pares
+        let impares
+        let resultado
+
+        pares = 0
+        impares = 0
+       
+
+        for(contador = 1; contador <= 5; contador ++){
+            for(multi = 1; multi <= 5; multi ++ ){
+                resultado = contador * multi
+                if(resultado %2 ==0 ){
+                    console.log(contador + " x " + multi + " = " + resultado + " BUZZ ")
+                    pares = pares + 1
+                }
+                else{
+                    console.log(contador + " x " + multi + " = " + resultado + " BASS ")
+                    impares = impares + 1
+                }
+
+
+            }
+
+        }
+        console.log("la cantidad total de pares es: " + pares)
+        console.log("la cantidad total de impares es: " + impares)
+
+
+    </script>
+</body>
+</html>

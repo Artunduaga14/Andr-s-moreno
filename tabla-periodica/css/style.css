@@ -1,0 +1,361 @@
+
+body{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    color: #ffffff;
+}
+.texto{
+    color:#000000
+}
+.titulo{
+    color: #ffffff;
+}
+
+.numero-periodo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-top: 40px;
+    width: 60px;
+    height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+#principal{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.periodo{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 60px;
+    
+    margin-bottom: 1px; 
+}
+.periodo-dividio {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.celda{
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.elemento{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.color-letra-no-metales{
+    color: rgb(252, 212, 22);
+
+}
+.elemento-no-metales{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(255, 212, 22);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.cuadro-chiquito-no-metales{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(255, 212, 22);
+    margin-right: 5px;
+}
+.elemento-no-metales:hover{
+    transform: scale(1.15);
+
+}
+.color-letra-metales-alcalino{
+    color: rgb(212, 0, 99);
+
+}
+.elemento-metales-alcalino{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(212, 0, 99);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.cuadro-chiquito-metales-alcalino{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(212, 0, 99);
+    margin-right: 5px;
+}
+.elemento-metales-alcalino:hover{
+    transform: scale(1.15);
+}
+.color-letra-metales-alcalinoterreos{
+    color: rgb(3, 155, 201);
+
+}
+.elemento-metales-alcalinoterreos{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(3, 155, 201);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.cuadro-chiquito-metales-alcalinoterreos{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(3, 155, 201);
+    margin-right: 5px;
+}
+.elemento-metales-alcalinoterreos:hover{
+    transform: scale(1.15);
+}
+
+.color-letra-metales-de-transicion{
+    color: rgb(255, 145, 0);
+
+}
+.elemento-metales-de-transicion{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(255, 145, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-chiquito-metales-de-transicion{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(255, 145, 0);
+    margin-right: 5px;
+}
+
+.elemento-metales-de-transicion:hover{
+    transform: scale(1.15);
+}
+
+.color-letra-metaloides{
+    color: rgb(184, 0, 0);
+
+}
+.elemento-metaloides{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(184, 0, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-chiquito-metaloides{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(184, 0, 0);
+    margin-right: 5px;
+}
+
+.elemento-metaloides:hover{
+    transform: scale(1.15);
+}
+
+.color-letra-halogenos{
+    color: rgb(0, 201, 0);
+
+}
+.elemento-halogenos{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(0, 201, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-chiquito-halogenos{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(0, 201, 0);
+    margin-right: 5px;
+}
+
+.elemento-halogenos:hover{
+    transform: scale(1.15);
+}
+
+.color-letra-gases-nobles{
+    color: rgb(123, 0, 172);
+
+}
+.elemento-gases-nobles{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(123, 0, 172);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-chiquito-gases-nobles{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(123, 0, 172);
+    margin-right: 5px;
+}
+
+.elemento-gases-nobles:hover{
+    transform: scale(1.15);
+}
+
+.color-letra-metales-de-post-transicion{
+    color: rgb(0, 59, 223);
+
+}
+.elemento-metales-de-post-transicion{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(0, 59, 223);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-chiquito-metales-de-post-transicion{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(0, 59, 223);
+    margin-right: 5px;
+}
+
+.elemento-metales-de-post-transicion:hover{
+    transform: scale(1.15);
+}
+
+.color-letra-lantanidos{
+    color: rgb(141, 45, 0);
+
+}
+.elemento-lantanidos{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(141, 45, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-chiquito-lantanidos{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(141, 45, 0);
+    margin-right: 5px;
+}
+
+.elemento-lantanidos:hover{
+    transform: scale(1.15);
+}
+
+.color-letra-actinidos{
+    color: rgb(28, 119, 20);
+
+}
+.elemento-actinidos{
+    width: 50px;
+    height: 55px;
+    border: 1px solid rgb(28, 119, 20);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro-chiquito-actinidos{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(28, 119, 20);
+    margin-right: 5px;
+}
+
+.elemento-actinidos:hover{
+    transform: scale(1.15);
+}
+
+.recuadro-cuadro{
+    width: 190px;
+    height: 20px;
+    margin:  0;
+    padding: 0;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+
+.recuadro{
+    width: 50px;
+    height: 18px;
+   
+    font-size: 10px;
+}
+.numero{
+    font-size: 10px;
+    width: 50px;
+    height: 10px;
+    
+}
+
+.simbolo{
+    text-align: center;
+    font-size: 15px;
+    width: 50px;
+    height: 22px;
+
+}
+
+.nombre{
+    text-align: center;
+    font-size: 9px;
+    margin-top: 1px;
+    width: 50px;
+    height: 20px;
+}
+
+.espacio-abajo{
+    margin-top: 40px; 
+}
+.nombre-clasificasion{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+

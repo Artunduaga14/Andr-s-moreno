@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/promedio.js"></script>
+</head>
+<body>
+    <script>
+        let nota1= porNota(3.0,0.3);
+        let nota2= porNota(5.0,0.3);
+        let nota3= porNota(4.5,0.4);
+        let suma = nota1 + nota2 + nota3;
+        let notaExp1= porNotaExp(2.3,0.3);
+        let notaExp2= porNotaExp(5.0,0.3);
+        let notaExp3= porNotaExp(3.5,0.4);
+        let sumaExp = notaExp1 + notaExp2 + notaExp3;
+        console.log("el porcentaje de las notas con funtion como parametro");
+        console.log(" NOTA 1 ="+ nota1);
+        console.log(" NOTA 2 ="+ nota2);
+        console.log(" NOTA 3 ="+ nota3);
+        console.log("suma de notas= "+ suma);
+        console.log("________________________________________________");
+        console.log("el porcentaje de las notas con funtion como exprecion");
+        console.log(" NOTA 1 ="+ notaExp1);
+        console.log(" NOTA 2 ="+ notaExp2);
+        console.log(" NOTA 3 ="+ notaExp3);
+        console.log("suma de notas= "+ sumaExp);
+    </script>
+</body>
+</html>

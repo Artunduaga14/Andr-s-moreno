@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let bnota1 
+        let bnota2 
+        let bnota3 
+        let bpro1 
+        let bpro2 
+        let bpro3 
+        let bsump 
+
+        nota1 = 5
+        nota2 = 3
+        nota3 = 3.5
+        pro1 = nota1 * 0.2
+        pro2 = nota2 * 0.35
+        pro3 = nota3 * 0.45
+        sump = pro1 + pro2 + pro3
+        
+        if(sump > 4.5) {
+            console.log("es una nota superior "  + "\n" + sump)
+        }
+        else{
+            if(sump <= 4.5 && sump > 3.5){
+            console.log("es una nota buena " + "\n" + sump)
+            }
+            else{
+                if(sump <= 3.5 && sump >= 3.0){
+                    console.log("es una nota media" + "\n" + sump)
+                }
+                else{
+                    console.log("es una nota mala" + "\n" + sump)
+                }
+            }
+        }
+    </script>
+</body>
+</html>

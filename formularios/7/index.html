@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/classes.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-10 row forma ">
+            <div class="formulario col-6">
+                <form class="row g-3 needs-validation" novalidate onsubmit="return area()">
+                    <div class="col-12">
+                      <label for="txtNumeroLado" class="form-label">area del cuadrado</label>
+                      <input type="text" class="form-control" id="txtNumeroLado" required>
+                      <div class="valid-feedback">
+                        bien!
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="txtNumeroBase" class="form-label">area del rectangulo</label>
+                      <input type="text" class="form-control" id="txtNumeroBase" required>
+                      <div class="valid-feedback">
+                        bien!
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="txtNumeroAltura" class="form-label"></label>
+                      <input type="text" class="form-control" id="txtNumeroAltura" required>
+                      <div class="valid-feedback">
+                        bien!
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="txtNumeroTbase" class="form-label">area del triangulo</label>
+                      <input type="text" class="form-control" id="txtNumeroTbase" required>
+                      <div class="valid-feedback">
+                        bien!
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="txtNumeroTaltura" class="form-label"></label>
+                      <input type="text" class="form-control" id="txtNumeroTaltura" required>
+                      <div class="valid-feedback">
+                        bien!
+                      </div>
+                    </div>
+                    
+
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">enviar</button>
+                    </div>
+              </form>
+            </div>
+            <div class="respuesta col-4">
+                <div id="area"></div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- <script src="bootstrap/js/bootstrap.js"></script> -->
+    <script src="js/validate.js"></script>
+    <script src="js/area-figura.js"></script>
+</body>
+</html>

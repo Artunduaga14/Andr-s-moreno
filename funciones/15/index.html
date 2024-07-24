@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/sueldo.js"></script>
+</head>
+<body>
+    <script>
+        let diasTra = 30
+        let valorDias = 60000
+        console.log("function como parametro");
+        console.log("el salario de la persona es de: " + salario(diasTra,valorDias));
+        console.log("el subsidio de trasporte es de: " + subsidiotras(diasTra, valorDias))
+        console.log("la salud de la persona es de: " + salud(diasTra,valorDias));
+        console.log("la pension de la persona es de " + pension(diasTra,valorDias));
+        console.log("el arl de la persona es de " + arl(diasTra,valorDias));
+        console.log("su retencion de su salario es de: "+ retencion(diasTra, valorDias));
+        console.log("el sueldo del trabajador es de: " + deducibles(diasTra,valorDias));
+        
+        console.log("function como exprecion")
+        console.log("el salario de la persona es de: " + salarioExp(diasTra,valorDias));
+        console.log("el subsidio de trasporte es de: " + subsidiotrasExp(diasTra, valorDias))
+        console.log("la salud de la persona es de: " + saludExp(diasTra,valorDias));
+        console.log("la pension de la persona es de " + pensionExp(diasTra,valorDias));
+        console.log("el arl de la persona es de " + arlExp(diasTra,valorDias));
+        console.log("su retencion de su salario es de: "+ retencionExp(diasTra, valorDias));
+        console.log("el sueldo del trabajador es de: " + deduciblesExp(diasTra,valorDias));
+    </script>
+</body>
+</html>

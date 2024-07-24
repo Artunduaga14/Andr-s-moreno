@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(7, 81, 83);
+}
+
+tr{
+    text-align: center !important;
+}
+.btn-group{
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+table{
+    margin-left: 100px;
+}
+button{
+    margin: 0px;
+    width: 100px;
+}
+.forma{
+    width: 50%;
+    height: 80%;
+    margin-left: 280px;
+    margin-top: 200px;
+    background-color: rgb(40, 128, 128);
+    border-radius: 8%;
+
+}
+.bingo{
+    height: 30% !;
+}

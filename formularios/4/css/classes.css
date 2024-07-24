@@ -1,0 +1,18 @@
+.forma{
+    width: 1050px;
+    margin-top: 90px;
+}
+
+.formulario{
+border: 1px solid
+#510404;
+}
+.respuesta{
+border: 1px solid #510404;
+}
+.formulario, .respuesta {
+margin-left: 10px;
+border-radius: 6px;
+padding: 30px;
+color: #2b2b9e;
+}
